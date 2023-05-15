@@ -12,10 +12,17 @@ $cor-cinza-escuro: #334047;
 .azul-escuro {
   color: $cor-azul-escuro;
 }
+.btn-azul-escuro {
+  color: white;
+  background-color: $cor-azul-escuro;
+}
 .azul-claro {
   color: $cor-azul-claro;
 }
 .cinza-claro {
+  color: $cor-cinza-claro;
+}
+.btn-cinza-claro {
   color: $cor-cinza-claro;
   background-color: $cor-cinza-claro;
 }
@@ -23,7 +30,7 @@ $cor-cinza-escuro: #334047;
   color: $cor-cinza-escuro;
 }
 
-.fw-bold{
+.titulo{
   font-size: 1.5rem;
 
   @media (min-width: 768px) {
