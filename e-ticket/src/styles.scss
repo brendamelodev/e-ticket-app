@@ -8,7 +8,6 @@ $cor-azul-escuro: #3567E9;
 $cor-azul-claro: #7D95A1;
 $cor-cinza-claro: #D7E3EA;
 $cor-cinza-escuro: #334047;
-$cor-branco: #E5E5E5;
 
 .azul-escuro {
   color: $cor-azul-escuro;
@@ -23,6 +22,25 @@ $cor-branco: #E5E5E5;
 .cinza-escuro {
   color: $cor-cinza-escuro;
 }
-.branco {
-  color: $cor-branco;
+
+.fw-bold{
+  font-size: 1.5rem;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+  @media (min-width: 992px) {
+    font-size: 2.5rem;
+  }
+}
+
+.paragrafo{
+  font-size: 1rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.5rem;
+  }
+  @media (min-width: 992px) {
+    font-size: 2rem;
+  }
 }
