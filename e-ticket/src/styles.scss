@@ -1,4 +1,28 @@
 * {
   margin: 0;
   padding: 0;
- }
+  font-family: 'Inter', sans-serif;
+}
+
+$cor-azul-escuro: #3567E9;
+$cor-azul-claro: #7D95A1;
+$cor-cinza-claro: #D7E3EA;
+$cor-cinza-escuro: #334047;
+$cor-branco: #E5E5E5;
+
+.azul-escuro {
+  color: $cor-azul-escuro;
+}
+.azul-claro {
+  color: $cor-azul-claro;
+}
+.cinza-claro {
+  color: $cor-cinza-claro;
+  background-color: $cor-cinza-claro;
+}
+.cinza-escuro {
+  color: $cor-cinza-escuro;
+}
+.branco {
+  color: $cor-branco;
+}
